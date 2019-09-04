@@ -1,0 +1,142 @@
+
+body{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("https://i.pinimg.com/originals/6d/04/22/6d04224acc4ca51269086361e7e4581a.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+#particles-js {
+	height: 30vh;
+	background-size:cover;
+}
+.jumbotron{
+	text-align: center;
+	background-color: transparent;
+	margin-top: 30px;
+	color: white;
+	
+}
+
+.bg-dark{
+	background:#black !important;
+}
+
+h1{
+	font-size: 6rem;
+
+}
+
+h3{
+	font-size: 4rem;
+}
+
+p{
+	font-size:2rem;
+}
+
+#btn{
+	font-size: 2rem;
+	
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: white;
+	font-size: 1.5rem;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+	color: black;
+}
+
+.navbar-light .navbar-brand {
+	color: white;
+	font-size: 1.5rem;
+}
+
+.navbar-light .navbar-brand:hover {
+	color: black;
+}
+
+.navbar-light .navbar-toggler {
+	color: white;
+}
+.card-text{
+	font-size: 1rem;
+}
+
+hr{
+	border:0.5px solid #d8cdcd;
+	width: 500px;
+}
+
+.card{
+	margin-bottom: 20px;
+}
+.socicons-list {
+	list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.socicons-list li {
+  margin: 30px 10px;
+}
+.socicons-list li a {
+  text-decoration: none;
+  padding: 30px;
+	font-size: 30px;
+  border-radius: 50%;
+  color: #fff;
+	background-color: #f1f1f1;
+  transition: all ease-in-out 150ms;
+}
+.socicons-list li a:hover {
+text-shadow: 0 5px 10px #212121;
+}
+
+.socicons-list li:nth-child(1) a {
+	background-color: #3e5b98;
+}
+.socicons-list li:nth-child(2) a {
+	background-color: #c13584;
+}
+.socicons-list li:nth-child(3) a {
+	background-color: #4da7de;
+}
+.socicons-list li:nth-child(4) a {
+	background-color: #dd4b39;
+}
+.socicons-list li:nth-child(5) a {
+	background-color: #1769ff;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.wrapper i {
+  padding: 10px;
+  text-shadow: 0px 6px 8px rgba(0, 0, 0, 0.6);
+  transition: all ease-in-out 150ms;
+}
+.wrapper a:nth-child(1) {
+  color: #dd4b39;
+}
+.wrapper a:nth-child(2) {
+  color: #4867AA;
+}
+.wrapper a:nth-child(3) {
+  color: #1DA1F2;
+}
+.wrapper i:hover {
+  margin-top: -3px;
+  text-shadow: 0px 14px 10px rgba(0, 0, 0, 0.4);
+}
+.name h1{
+	margin-left: 5%;
+	position: absolute;
+
+}
